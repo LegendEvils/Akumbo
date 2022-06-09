@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df358b39c3eb4af1a400ce7d160405d9, type: 3}
+  m_Name: Abilities
+  m_EditorClassIdentifier: 
+  abilityDataList:
+  - name: Attack Speed
+    myType: 0
+    value: 0.5
+    abilitySprite: {fileID: 21300000, guid: 3abf14751cfa14b4b88b9926c995eabc, type: 3}
+    ammo: {fileID: 0}
+  - name: Attack Damage
+    myType: 1
+    value: 4
+    abilitySprite: {fileID: 21300000, guid: 656e7cb654ce081448de2b761e9c5c51, type: 3}
+    ammo: {fileID: 0}
+  - name: Health
+    myType: 2
+    value: 80
+    abilitySprite: {fileID: 21300000, guid: e43c56162c3b38a44a5c5f75004d1637, type: 3}
+    ammo: {fileID: 0}
+  - name: Move Speed
+    myType: 3
+    value: 0.5
+    abilitySprite: {fileID: 21300000, guid: 8544d33f77c66c24b8c7475ce0d41c26, type: 3}
+    ammo: {fileID: 0}
